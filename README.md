@@ -1,1 +1,6 @@
 # Predictive-Analysis-in-Breast-Cancer-Malignancy-Classification
+As part of a predictive data science project, I worked on breast cancer classification using machine learning algorithms. The project aimed to evaluate the performance of several models in classifying malignancy based on medical test data from 569 patients. We conducted preprocessing by removing irrelevant variables and handling missing values, followed by feature selection using the Random Forest method, which identified four key predictors: radius_mean, texture_mean, perimeter_mean, and area_mean.
+
+We implemented and compared four classification algorithms: Logistic Regression, Decision Tree, Random Forest, and K-Nearest Neighbors (KNN). The data were split into training and testing sets (70:30), and model performance was evaluated using accuracy, confusion matrix, precision, recall, F1-score, and ROC-AUC metrics. Among all models, the Decision Tree algorithm achieved the highest test accuracy at 99.42%, making it the most effective classifier in this study.
+
+This project provided hands-on experience in end-to-end data modeling, including preprocessing, feature engineering, algorithm implementation, and evaluation. It also reinforced my understanding of predictive analytics in a medical context and the importance of model interpretability in supporting clinical decision-making.
